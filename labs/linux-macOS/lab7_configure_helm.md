@@ -55,6 +55,6 @@ Run the following command to install Tiller into your Kubernetes cluster:
 helm --kubeconfig=./config.cluster${CLUSTER} init --service-account tiller
 ```
 
-## Finished with the Lab 8 - Istio
+## Finished with the Lab 7 - On to Istio!
 
 [Move to Lab 8 - Istio](https://github.com/tbaums/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab8_istio.md)

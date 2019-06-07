@@ -17,9 +17,12 @@ You can download/explore the latest releases using the URL below:
 For our labs today we will be using Istio 1.0.6 which already exists in the `student` directory to save time
 
 Run the following commands to go to the Istio directory and to install Istio using Helm:
+
+**IF YOU ARE USING ZSH, PLEASE SWITCH TO BASH BEFORE EXECUTING THE COMMAND BELOW**
+
 ```
 export PATH=$PWD/istio-1.0.6/bin:$PATH
-helm --kubeconfig=./config.cluster${CLUSTER} install istio-1.0.6/install/kubernetes/helm/istio --name istio --namespace istio-system \
+bash helm --kubeconfig=./config.cluster${CLUSTER} install istio-1.0.6/install/kubernetes/helm/istio --name istio --namespace istio-system \
   --set gateways.istio-ingressgateway.serviceAnnotations."kubernetes\.dcos\.io/edgelb-pool-name"=dklb${CLUSTER} \
   --set gateways.istio-ingressgateway.serviceAnnotations."kubernetes\.dcos\.io/edgelb-pool-size"=\"2\" \
   --set gateways.istio-ingressgateway.ports[0].port=100${CLUSTER} \
@@ -220,6 +223,6 @@ You can then follow the other steps described in the Istio documentation to unde
 
 [https://istio.io/docs/examples/bookinfo/](https://istio.io/docs/examples/bookinfo/)
 
-## Finished with the Lab 9 - Monitoring
+## Finished with the Lab 8 - Istio
 
-[Move to Lab 9 - Monitoring](https://github.com/tbaums/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab8_istio.md)
+[Move to Lab 9 - Monitoring](https://github.com/tbaums/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab9_monitoring.md)
