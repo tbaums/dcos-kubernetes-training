@@ -23,8 +23,10 @@ Run the following commands to go to the Istio directory and to install Istio usi
 export PATH=$PWD/istio-1.0.6/bin:$PATH
 ```
 **IF YOU ARE USING ZSH, PLEASE SWITCH TO BASH BEFORE EXECUTING THE COMMAND BELOW**
+On OS X, simply type `bash` in your terminal.
 
 ```
+export PATH=$PWD/istio-1.0.6/bin:$PATH
 helm --kubeconfig=./config.cluster${CLUSTER} install istio-1.0.6/install/kubernetes/helm/istio --name istio --namespace istio-system \
   --set gateways.istio-ingressgateway.serviceAnnotations."kubernetes\.dcos\.io/edgelb-pool-name"=dklb${CLUSTER} \
   --set gateways.istio-ingressgateway.serviceAnnotations."kubernetes\.dcos\.io/edgelb-pool-size"=\"2\" \
