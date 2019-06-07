@@ -70,7 +70,7 @@ Run the following command to export the environment variables needed during the 
 
 ```
 export APPNAME=training
-export PUBLICIP=<PUBLIC IP PROVIDED BY INSTRUCTOR>
+export PUBLICIP=<DC/OS PUBLIC AGENT NODE PUBLIC IP PROVIDED BY INSTRUCTOR>
 export CLUSTER=<the number assigned by the instructor: 01, 02, ..>
 ```
 
