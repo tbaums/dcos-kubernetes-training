@@ -29,8 +29,8 @@ Change directory to dcos-kubernetes-training
 cd dcos-kubernetes-training
 ```
 
-## [Instructors / Platform Operators](https://github.com/djannot/dcos-kubernetes-training/tree/master/instructor.md)
+## [Instructors / Platform Operators](https://github.com/tbaums/dcos-kubernetes-training/blob/master/instructor.md)
 Follow the link above to access the Instructors README to set up the lab cluster
 
-## [Student / Development or DevOps teams](https://github.com/djannot/dcos-kubernetes-training/tree/master/labs)
+## [Student / Development or DevOps teams](https://github.com/tbaums/dcos-kubernetes-training/tree/master/labs)
 Follow the link above to access the Course Labs

@@ -56,4 +56,4 @@ You can check that the new node is shown in the Kubernetes Dashboard:
 
 ## Finished with the Lab 2 - Scaling
 
-[Move to Lab 3 - Upgrading Kubernetes](https://github.com/djannot/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab3_upgrading.md)
+[Move to Lab 3 - Upgrading Kubernetes](https://github.com/tbaums/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab3_upgrading.md)

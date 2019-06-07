@@ -81,4 +81,4 @@ Login using the config file.
 
 ## Finished with the Lab 1 - Deploying Kubernetes
 
-[Move to Lab 2 - Scaling](https://github.com/djannot/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab2_scaling.md)
+[Move to Lab 2 - Scaling](https://github.com/tbaums/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab2_scaling.md)

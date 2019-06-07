@@ -138,4 +138,4 @@ $ cat /etc/hosts
 
 ## Finished with the Lab 0 - Prerequisites
 
-[Move to Lab 1 - Deploying Kubernetes](https://github.com/djannot/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab1_deploying_kubernetes.md)
+[Move to Lab 1 - Deploying Kubernetes](https://github.com/tbaums/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab1_deploying_kubernetes.md)

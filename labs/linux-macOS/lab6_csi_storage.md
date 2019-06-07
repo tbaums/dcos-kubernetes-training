@@ -1,4 +1,4 @@
-# Lab 7: Leverage persistent storage using CSI
+# Lab 6: Leverage persistent storage using CSI
 
 ### Objectives
 - Deploy the AWS EBS CSI Driver on your existing kubernetes cluster
@@ -136,6 +136,6 @@ pod=$(kubectl --kubeconfig=./config.cluster${CLUSTER} get pods | grep ebs-dynami
 kubectl --kubeconfig=./config.cluster${CLUSTER} exec -i $pod cat /data/out.txt
 ```
 
-## Finished with the Lab 7 - CSI Storage
+## Finished with the Lab 7 - Configure Helm
 
-[Move to Lab 8 - Configuring Helm](https://github.com/djannot/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab8_configure_helm.md)
+[Move to Lab 7 - Configuring Helm](https://github.com/tbaums/dcos-kubernetes-training/blob/master/labs/linux-macOS/lab6_csi_storage.md)
