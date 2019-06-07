@@ -54,8 +54,8 @@ spec:
   ingress:
   - from: []
 EOF
-done
-
+```
+```
 cat <<EOF | kubectl --kubeconfig=./config.cluster${CLUSTER} create -f -
 kind: NetworkPolicy
 apiVersion: networking.k8s.io/v1
@@ -68,8 +68,8 @@ spec:
   ingress:
   - from: []
 EOF
-done
-
+```
+```
 cat <<EOF | kubectl --kubeconfig=./config.cluster${CLUSTER} create -f -
 kind: NetworkPolicy
 apiVersion: networking.k8s.io/v1
@@ -82,7 +82,6 @@ spec:
   ingress:
   - from: []
 EOF
-done
 ```
 
 ## Check that the Redis and the http-echo apps are now accessible
