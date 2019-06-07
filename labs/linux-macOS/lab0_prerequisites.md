@@ -1,6 +1,27 @@
 # Pre-requisites
 
+ALL COMMANDS MUST BE EXERCUTED WITH THE "BASH" SHELL.  THE ZSH (Z-SHELL) CAUSES PROBLEMS, ANDF WILL LEAD TO THE INSERTION OF ESCAPE CHARACTERS, AND THE COMMANDS WILL FAIL TO COMPLETE AS INTENDED.
+
+## Setting Up Your Shell
+If you do not have the Bash shell installed on your desktop, you can register for a free trial of the Google Cloud Shell at the following URL:
+
+https://cloud.google.com/shell/
+
+## Download Materials from GitHub
+The GitHub repository with all materials for this training session can be downloaded in one of the two ways listed below:
+
+1.  Download and unzip the Repository from the following URL.  For those unfamiliar with Git, this is probably the easiest method:
+
+  https://github.com/tbaums/dcos-kubernetes-training/archive/master.zip
+  
+2.  Pull the repository using the "Git Clone" command if you have Git installed locally
+```
+git clone https://github.com/tbaums/dcos-kubernetes-training.git
+```
+
 ## Change Directory
+Navigate your terminal to the newly downloaded/cloned repository
+
 To start your labs, cd into the `student` directory
 ```
 cd student
