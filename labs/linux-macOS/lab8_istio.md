@@ -22,7 +22,7 @@ Run the following commands to go to the Istio directory and to install Istio usi
 
 ```
 export PATH=$PWD/istio-1.0.6/bin:$PATH
-bash helm --kubeconfig=./config.cluster${CLUSTER} install istio-1.0.6/install/kubernetes/helm/istio --name istio --namespace istio-system \
+helm --kubeconfig=./config.cluster${CLUSTER} install istio-1.0.6/install/kubernetes/helm/istio --name istio --namespace istio-system \
   --set gateways.istio-ingressgateway.serviceAnnotations."kubernetes\.dcos\.io/edgelb-pool-name"=dklb${CLUSTER} \
   --set gateways.istio-ingressgateway.serviceAnnotations."kubernetes\.dcos\.io/edgelb-pool-size"=\"2\" \
   --set gateways.istio-ingressgateway.ports[0].port=100${CLUSTER} \
