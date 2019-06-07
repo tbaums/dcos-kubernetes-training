@@ -103,5 +103,17 @@ Run the automated install to get the DC/OS cluster set up with MKE and EdgeLB:
 ./instructor_automated.sh
 ```
 
+## Insure the Following AWS Public Agent Firewall Ports Open
+XX = the number of total clusters created. 
+8001 - 80XX
+9001 - 90XX
+1001 - 10XX
+
+## White Board with the following Information
+Master Node Public IP Address
+Public Agent 1, Public IP Address 
+Public Agent 2, Public IP Address
+
+
 # [Teardown Instructions for once the Lab is Completed](https://github.com/tbaums/dcos-kubernetes-training/tree/master/teardown.md)
 Follow the link above to access teardown instructions for the cluster
