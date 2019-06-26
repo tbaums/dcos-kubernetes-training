@@ -2,10 +2,13 @@
 
 ALL COMMANDS MUST BE EXERCUTED WITH THE "BASH" SHELL.  THE ZSH (Z-SHELL) CAUSES PROBLEMS, ANDF WILL LEAD TO THE INSERTION OF ESCAPE CHARACTERS, AND THE COMMANDS WILL FAIL TO COMPLETE AS INTENDED.
 
-## Setting Up Your Shell
+## Option 1: Setting Up Your Shell
 If you do not have the Bash shell installed on your desktop, you can register for a free trial of the Google Cloud Shell at the following URL:
 
 https://cloud.google.com/shell/
+
+## Option 2: PuTTY
+![PuTTY](https://github.com/tbaums/dcos-kubernetes-training/blob/master/images/image.png)
 
 ## Download Materials from GitHub
 The GitHub repository with all materials for this training session can be downloaded in one of the two ways listed below:
